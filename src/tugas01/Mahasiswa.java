@@ -10,5 +10,13 @@ package tugas01;
  * @author LENOVO
  */
 public class Mahasiswa {
+    String nama;
+    String NPM;
+    double IPK;
     
+    void cetakInfo(){
+        System.out.println("nama :"+nama);
+        System.out.println("NPM:"+NPM);
+        System.out.println("IPK:"+IPK);
+    }
 }
